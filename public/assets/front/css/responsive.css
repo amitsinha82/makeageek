@@ -1,0 +1,1345 @@
+/***********************************************/
+@media only screen and (min-width: 768px) and (max-width: 1249px)
+{
+/*new slider responsive code code */
+
+#sliderss {
+   
+    height: 257px !important;
+    
+}
+/*end slider responsive code */
+
+
+/*pop up  responsive code */
+.answer_container 
+{
+
+    width: 100% !important;
+	
+}
+   
+.sams {
+  
+    width: 100% !important;     
+}
+
+/*end popup responsive code */
+/*********hearder responsive code start**** 768x959*****/
+     /*********hearder responsive code start*********/
+     /*********hearder responsive code start*********/
+	 
+.container33 {
+    width: 140% !important;
+
+}	 
+	 
+.container1 {
+  
+    width: 86% !important;
+}
+.logo {
+   padding: 0px 0 0 0px !important;
+    width: 28% !important;
+}
+.searchbar {
+        width: 366px !important;
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+	 
+	margin-right: 48% !important;
+    
+}
+
+.searchbar form input.btun {
+   
+    width: 10% !important;
+   
+}
+
+.contact {
+  
+    width: 60% !important;
+}
+   
+.searchbar form input
+{
+letter-spacing: 0px !important;
+ width:70% !important;
+
+}
+
+.main-nav {
+  
+    width: auto !important;
+}
+#menu_bar
+{
+margin-top: 13px !important;
+}
+#menu_bar ul
+{
+width: auto !important;
+margin-left: -135% !important; 
+}
+main-nav ul
+{
+width: 110% !important;
+}
+
+#menu_bar ul li {
+ margin-left: 5px !important;
+
+}
+#menu_bar ul li a {
+ 
+    font: bold 10px FiraSans !important;
+    padding: 11px 0 !important;
+}
+#menu_bar ul li:hover ul {
+    
+    width: 250px !important;
+ 
+}
+
+
+/*****************************contant page  code 786x959 start *********************************/
+
+.inner_testimonails h2 {
+  
+    /*margin-left: -10%;*/
+}
+.inner_testimonails {
+    width: 70% !important;
+   
+}
+.slick-track
+{
+width:100% ;
+}
+.slick-initialized .slick-slide {
+   
+    margin: auto;
+    margin-left: 10px;
+}
+
+.inner_page_container ul li span {
+    display: block;
+    font: bold 14px/13px FiraSans !important;
+    color: #000000;
+}
+
+.inner_page_container ul li {
+    width: 22.8% !important;
+    }
+
+.left_inner_content h4 {
+    font: bold 12px FiraSans;
+   
+    margin-bottom: 0px !important;
+}
+
+.inner_page_container ul {
+   
+    margin-left: 8% !important;
+    
+}
+
+
+/********subject/Mzg page********/
+
+.arth_page_container {
+    width: 100% !important;
+    margin: auto;
+    padding: 5px 0;
+}
+
+/****************************contact page code end for 768x959*****************************************/
+
+.inner_footer {
+    width: 99% !important;
+    margin: auto;
+}
+
+.left_inner_footer {
+	float:left !important;   
+     width: 455px !important; 
+		padding-right: 20px !important;
+}
+
+.left_inner_footer a.mail {
+    color: #000;
+    display: block;
+    font: bold 13px FiraSans;
+    letter-spacing: 1px;
+    margin:9px 0px  !important;
+    text-align: center;
+	}
+
+.right_inner_footer {
+     width: 40% !important; /**/
+    float: right;
+    margin-left: 0px;
+}
+.middle_inner_footer {
+    width: 30% !important;
+    margin-top: 0px !important;
+    padding-top: 50px !important; 
+	float:left !important;
+    }
+
+
+.right_inner_footer {
+    width: 40% !important;
+    float: left !important;
+    margin-left: 0px !important;
+	
+}
+.left_inner_content {
+    width: 81px !important;
+    float: left;
+    margin-top: 0% !important;
+    margin-left: 3% !important;
+}
+
+
+.puzzledata {
+    
+    width: 65% !important;
+   
+}
+.inner_page_container {
+    width: 100% !important;
+    margin: auto;
+}
+
+
+
+#myflipper
+{
+width: 100% !important;
+
+}
+
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px)
+ {
+ /*start slider code */
+#sliderss {
+   
+    height: 145px !important;
+    
+} 
+/*end slider code */ 
+ body
+{
+
+overflow:auto !important;
+overflow-x:auto !important;
+overflow-y:auto !important;
+}
+ 
+ .puzzledata {
+    
+    width: 50% !important;
+   
+}
+
+ 
+ /* start  pop up responsive code */
+ .answer_container {
+    width: 100% !important;
+    }
+ .sams {
+  
+    width: 100% !important;
+     
+   
+}
+/* end pop up responsive code */
+
+/***new edit for header logo**/
+
+.container33 {
+
+    display: block !important;
+    float: none !important;
+    margin: auto;
+    width: 100% !important; 
+
+}
+
+.container33 img{
+    display: block !important;
+    float: none !important;
+    margin: auto ;
+	width: 127px !important;
+	margin-left: auto !important;
+	margin-bottom: auto !important;
+   /* width: 156px !important; */
+
+}
+.container1{
+   float: none !important;
+    width: 68% !important;
+	margin:auto !important;
+}
+.contact{
+float: none !important;
+    margin-top: 24px !important;
+    width: 100% !important;
+}
+ 
+ .logo {float:none !important;
+ 
+        margin-left: 0 !important;
+    margin-top: 31px !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+.logo img
+{
+width:100% !important;
+
+}
+.searchbar
+{
+    width: 100% !important;
+}
+/****end new edit header ***/
+
+
+#autosearch {
+    float: left !important;
+    
+    width: 80% !important; /*262px*/
+    }
+ 
+ 
+.btun {
+ 
+    float: right !important;
+   
+    width: 20% !important; /*64 px*/
+}
+
+.inner_page_container {
+    width: 100% !important;
+    }
+
+.inner_testimonails ul li span {
+    
+    padding-left: 121px !important;
+}
+    .right_arth_page {
+   
+     width: 41% !important;
+     margin-left: 1% !important;
+    }
+   
+   
+    .left_arth_page {
+    width: 41% !important;
+    margin-left:1% !important;
+    }
+   
+   
+    .inner_page_container ul li {
+    width: 37.8% !important;
+    }
+ 
+ .inner_testimonails {
+  width: 70% !important;   
+}
+
+
+.inner_testimonails ul li {
+text-align:left;
+font:13px/23px FiraSans;
+color:#010101;
+}
+
+/****************************footer start for geek ******************************************/
+	.inner_footer {
+    width: 100% !important;
+    margin: auto !important;
+}
+	
+	
+	.left_inner_footer
+{
+    width: 100% !important;
+    float: none !important;
+    padding-right: 0px !important;
+    border-right: 0px dashed #000 !important;
+}
+ 
+ .middle_inner_footer {
+    width: 100% !important;
+    float: none !important;
+    border-right: 0px dashed #000 !important;
+    margin-left: 0px !important;
+   
+}
+ 
+ .right_inner_footer {
+    width: 100% !important;
+    float: none !important;
+    margin-left: 0px !important;
+    margin-top: 10px !important;
+}
+ 
+ 
+ .left_inner_content {
+    width: 32% !important;
+text-align: center !important;
+   
+}
+ p.footer_class {
+    font: 12px FiraSans bold !important;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0 0 0;
+    width: 100% !important;
+}
+.left_inner_content ul li a {
+   
+    font: 11px/16px FiraSans !important;
+}
+
+.left_inner_footer ul
+{
+
+margin-left: 0px !important;
+}
+ 
+  /*footer for 320 code start*/
+
+/*******************footer edit for geek**************************/
+ /*
+.puzzledata {
+    width: 35% !important;
+	margin:auto !important;
+}
+
+.modal-box
+{
+  top: 341px !important;
+font: bold 11px FiraSans !important;
+width: 50% !important;
+}
+
+
+.modal-box header
+{
+width: 70% !important;
+font: bold 11px FiraSans !important;
+width: 50% !important;
+}
+.modal-box footer p
+{
+ 
+
+font: bold 12px FiraSans !important;
+}
+
+
+
+
+
+.puzzledata img
+{
+width:50% !important;
+}
+*/
+.puzzledata p {
+     
+    font:bold 13px/18px FiraSans !important;
+	letter-spacing: 0px !important;
+    
+}
+
+#popup2
+{
+
+top:17% !important;
+}
+
+
+/*flipper slider responsive code  start*/
+
+.flipper-prev-page
+{
+
+width: 22px !important;
+height: 20px !important;
+
+left: -28px !important;
+}
+
+
+.flipper-next-page
+{
+right: -24px !important;
+width: 22px !important;
+height: 20px !important;
+
+}
+
+
+#myflipper
+{
+width: 100% !important;
+
+}
+
+
+
+.inner_testimonails h2
+{
+font: bold 20px Bulldozer !important;
+}
+
+#left_content
+{
+width: 100% !important;
+
+}
+#left_content
+{
+padding-right: 0px!important ; 
+}
+
+#left_content p, #right_content p {
+    font: bold 11px/15px FiraSans !important;
+    letter-spacing: 0px !important;
+}
+
+#right_content
+{
+width: 100% !important;
+margin-top: 50% !important;
+}
+
+#left_content1
+{
+width: 100% !important;
+}
+
+
+.full_content p {
+    font: bold 11px/12px FiraSans !important;
+    letter-spacing: 0px !important;
+}
+
+/*flipper slider responsive code end*/
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px)
+ {
+ 
+ 
+  body
+{
+
+overflow:hidden !important;
+overflow-x:hidden !important;
+overflow-y:hidden !important;
+}
+ 
+ 
+ 
+.concepttile, .conceptimage {
+    min-height: 111px !important;
+}
+
+.onlynotes, .onlyvideos {
+    min-height: 55.5px !important;
+}
+ 
+ 
+/*start slider code */
+#sliderss {
+   
+    height: 91px !important;
+    
+} 
+ 
+/*end slider code */ 
+
+
+/*start pop up responsive code */
+
+.answer_container
+{
+    width: 100% !important;
+}
+
+.sams
+{
+  
+    width: 100% !important;
+
+}
+
+/*end pop up responsive code */
+
+ /* start code for 2nd pop puzzle */
+ .modal-box header , .modal-box .modal-header {
+    padding: 0px 10px !important;
+    width: 200% !important;
+}
+.modal-box footer p {
+     font: 12px FiraSans !important;
+}
+
+#popup2 {
+    top: 348px !important;
+    height: 31% !important;
+}
+ 
+ .puzzledata {
+    width: 33% !important;
+	margin: auto 54px !important;
+}
+
+puzzledata p {
+    
+    font: bold 18px/28px FiraSans !important;
+    letter-spacing: 1px;
+    width: 100% !important;
+}
+
+.modal-box header, .modal-box .modal-header {
+    padding: 12px 10px !important;
+   
+    width: 200% !important;
+}
+.modal-footer p {
+   font: 12px FiraSans !important;
+   width: 283px !important;
+   text-align:center !important;
+}
+
+.modal-footer a {
+  width: 26% !important;
+}
+
+
+
+ .puzzledata p {
+   
+    font: 10px/18px FiraSans !important;
+    letter-spacing: 1px;
+}
+
+/* end code for 2nd pop puzzle */
+
+
+.container33
+{
+
+width: 100% !important;
+}
+
+.container33 img{
+        display: block !important;
+    float: none !important;
+    margin: auto;
+    width: 80px !important;
+	margin-left: auto !important;
+margin-bottom: auto !important;
+
+}
+ 
+ .logo {float:none !important;
+ 
+        margin-left: 0 !important;
+    margin-top: 31px !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+.logo img
+{
+width:100% !important;
+
+}
+
+.container1{
+    width:100% !important;
+    margin:auto;
+    float:none !important;
+   
+}
+
+.contact{
+    width:71% !important;
+    float:none !important;
+    margin:auto !important;
+}
+.searchbar {
+    color: #000 !important;
+    width: 120% !important;
+    float: none !important;
+    margin-left: 0px !important;
+    margin: auto;
+    margin-top: 9px;
+}
+
+#autosearch{
+    width:65% !important;
+}
+.btun{
+    width:17% !important;
+}
+
+
+
+
+slick-dots ul
+{
+width:105%!important;
+}
+
+
+
+.inner_footer {
+    width: 100% !important;
+ 
+}
+
+
+
+.inner_testimonails {
+    width: 100% !important;
+    margin: auto;
+    padding: 4px 0 40px 0;
+}
+.inner_testimonails h2 {
+
+    font: bold 33px Bulldozer !important;
+
+	left: 27% !important;
+	
+   /* margin-top: 3% !important; */
+}
+ 
+ .inner_testimonails ul li {
+   
+    font: 15px/21px FiraSans !important;
+    padding: 2% !important;
+  
+}
+
+.inner_testimonails ul li span {
+  
+    padding-left: 45px !important;
+	
+}
+ 
+.inner_page_container ul li span {
+     
+    font: bold 13px/23px FiraSans !important;
+     
+} 
+ 
+ 
+ 
+ .inner_page_container {
+    width: 104% !important;
+ }
+ 
+ .inner_page_container ul li {
+    width: 39.8% !important;
+    margin-left: 3% !important;
+    
+}
+
+.arth_page_container {
+    width: 100% !important;
+ 
+}
+
+.left_arth_page {
+margin: 20px auto 5px auto !important;
+    width: 95% !important;
+ 
+}
+ .right_arth_page {
+    width: 95% !important;
+ 
+}
+
+.inner_full_class ul li a {
+    
+    font: bold 14px/23px FiraSans !important;  
+	}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /*footer for 320 code start*/
+ 
+ 
+ .left_inner_footer {
+    width: 90% !important;
+    float: none !important;
+    padding-right: 0px !important;
+    border-right: 0px dashed #000 !important;
+}
+ 
+ .middle_inner_footer {
+    width: 100% !important;
+    float: none !important;
+    border-right: 0px dashed #000 !important;
+        
+}
+ 
+ .right_inner_footer {
+    width: 98% !important;
+    float: none !important;
+    margin-left: auto !important; /*14px*/
+    margin-top: 10px !important;
+}
+ 
+ 
+ .left_inner_content {
+    width: 32% !important;
+text-align: center !important;
+   
+}
+ p.footer_class {
+    font: 12px FiraSans bold !important;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0 0 0;
+    width: 100% !important;
+}
+.left_inner_content ul li a {
+   
+    font: 11px/16px FiraSans !important;
+}
+
+.left_inner_footer ul li {
+ 
+   margin: 0px 0px !important;
+    
+}
+
+
+
+
+.left_inner_footer a img
+{
+margin-left: 25.5% !important;
+margin-top: 2% !important;
+
+}
+
+
+.left_inner_footer ul
+
+{
+
+padding: 0px 0 !important;
+margin-left: 73px !important;
+ 
+float: none !important;
+}
+
+.left_inner_footer ul li a
+{
+width:auto!important;
+}
+
+.left_inner_footer a
+{
+width:0px !important;
+float: none !important;
+}
+
+
+
+.left_inner_footer h3
+{
+padding-left: 0px !important;
+width: 55% !important;
+}
+
+.left_inner_footer a.mail
+{
+letter-spacing: 0px;
+padding-left: 0px;
+}
+ 
+  /*footer for 320 code start*/
+
+body
+{
+ overflow-x:auto !important; 
+
+}
+
+
+
+
+
+
+
+/*flipper slider responsive code  start*/
+
+.flipper-prev-page
+{
+
+width: 22px !important;
+height: 20px !important;
+
+left: -28px !important;
+}
+
+
+.flipper-next-page
+{
+right: -24px !important;
+width: 22px !important;
+height: 20px !important;
+
+}
+
+
+#myflipper
+{
+width: 80% !important;
+margin-left: 10% !important;
+}
+
+
+
+.inner_testimonails h2
+{
+font: bold 20px Bulldozer !important;
+}
+
+#left_content
+{
+width: 100% !important;
+
+}
+#left_content
+{
+padding-right: 0px!important ; 
+}
+
+#left_content p, #right_content p {
+    font: bold 11px/15px FiraSans !important;
+    letter-spacing: 0px !important;
+}
+
+#right_content
+{
+width: 100% !important;
+margin-top: 50% !important;
+}
+
+#left_content1
+{
+width: 100% !important;
+}
+
+
+.full_content p {
+    font: bold 11px/12px FiraSans !important;
+    letter-spacing: 0px !important;
+}
+
+/*flipper slider responsive code end*/
+
+
+/*code for model popup */
+
+.cd-form .fieldset {
+ 
+    margin-bottom: 10% !important;
+}
+#menu_bar ul li a {
+    color: #FF6600 !important;
+     
+	}
+	
+	
+	.cd-form-bottom-message
+	{
+	
+	margin-bottom: -16% !important;
+	}
+	
+	
+	
+	
+	/****start responsive code *****/
+ 
+ .cd-popup-container h6 {
+   
+    font: 13px caudex !important;
+	}
+	
+	
+	#backbutton
+	{
+	width: 25% !important;
+	
+	}
+ .myaccount input {
+    width: 274px !important;
+	}
+	.myaccount {
+    width: 100%;
+	}
+	
+ /***end resopnsive code ***/
+ 
+ 
+ /***not login form***/
+ .main-nav a {
+    display: block;
+    height: 50px !important;
+    line-height: 50px !important;
+    padding-left: 0% !important;
+    color: black !important;
+	background: none !important;
+
+}
+
+.notlogin
+{
+font-size: 36px !important;
+width: 70% !important;
+min-height: 58vh;
+padding: 41px !important;
+}
+
+.main-nav {
+    float: none !important;
+    margin-right: 0% !important;
+    width: 100% !important;
+ /***end not login form**/
+
+
+
+
+ }
+ 
+ 
+@media only screen and (min-width: 300px) and (max-width: 319px)
+ {
+ 
+  
+ 
+/*start pop up responsive code */
+
+.answer_container
+{
+    width: 100% !important;
+}
+
+.sams
+{
+  
+    width: 100% !important;
+
+}
+
+/*end pop up responsive code */
+
+ 
+ .modal-box header , .modal-box .modal-header {
+    padding: 0px 10px !important;
+    width: 200% !important;
+}
+.modal-box footer p {
+     font: 12px FiraSans !important;
+}
+
+ #popup2
+ {
+ top:161px !important;
+ height: 23% !important;
+ }
+ 
+ .puzzledata {
+    width: 33% !important;
+}
+
+puzzledata p {
+    
+    font: bold 18px/28px FiraSans !important;
+    letter-spacing: 1px;
+    width: 100% !important;
+}
+
+.modal-box header, .modal-box .modal-header {
+    padding: 12px 10px !important;
+   
+    width: 200% !important;
+}
+.modal-footer p {
+   font: 12px FiraSans !important;
+   width: 283px !important;
+   text-align:center !important;
+}
+
+.modal-footer a {
+  width: 26% !important;
+}
+
+
+
+ .puzzledata p {
+   
+    font: 10px/18px FiraSans !important;
+    letter-spacing: 1px;
+}
+ 
+ .logo {
+    float: left;
+    width: 225px !important;
+    padding: 20px 0 0 25px;
+    margin-left: 27% !important;
+    margin-top: -30% !important;
+}
+
+.searchbar form input {
+    width: 145px !important;
+    margin-top: -6% !important;
+    font: bold 12px FiraSans !important;
+    margin-left: 54% !important;
+}
+
+.searchbar form input.btun {
+   
+    width: 44px !important;
+    padding-left: 0;
+margin-top: -6% !important;
+margin-left: -1% !important;
+}
+
+/*end header file */
+
+
+/*start contant*/
+
+
+
+.inner_footer {
+    width: 100% !important;
+ 
+}
+
+
+
+.inner_testimonails {
+    width: 100% !important;
+    margin: auto;
+    padding: 4px 0 40px 0;
+}
+.inner_testimonails h2 {
+
+    font: bold 33px Bulldozer !important;
+
+
+    margin-top: 3% !important;
+}
+ 
+ .inner_testimonails ul li {
+   
+    font: 15px/21px FiraSans !important;
+    padding: 2% !important;
+  
+}
+
+.inner_testimonails ul li span {
+  
+    padding-left: 103px !important;
+}
+ 
+ 
+ 
+ 
+ 
+ .inner_page_container {
+    width: 100% !important;
+ }
+ 
+ .inner_page_container ul li {
+    width: 57.8% !important;
+    margin-left: 18% !important;
+    
+}
+
+.arth_page_container {
+    width: 100% !important;
+ 
+}
+
+.left_arth_page {
+margin: 20px auto 5px auto !important;
+    width: 100% !important;
+ 
+}
+ .right_arth_page {
+    width: 100% !important;
+ 
+}
+
+ /*footer for 320 code start*/
+ 
+ 
+ .left_inner_footer
+{
+    width: 100% !important;
+    float: none !important;
+    padding-right: 40px;
+    border-right: 0px dashed #000 !important;
+}
+ 
+ .middle_inner_footer {
+    width: 100% !important;
+    float: none !important;
+    border-right: 0px dashed #000 !important;
+    margin-left: -19px !important;
+   
+}
+ 
+ .right_inner_footer {
+    width: 98% !important;
+    float: none !important;
+    margin-left: auto !important; /*5px*/
+    margin-top: 10px !important;
+}
+ 
+ 
+ .left_inner_content {
+    width: 32% !important;
+text-align: center !important;
+   
+}
+ p.footer_class {
+    font: 12px FiraSans bold !important;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0 0 0;
+    width: 100% !important;
+}
+.left_inner_content ul li a {
+   
+    font: 11px/16px FiraSans !important;
+}
+ 
+  /*footer for 320 code start*/
+  
+  /*flipper slider responsive code  start*/
+
+.flipper-prev-page
+{
+
+width: 22px !important;
+height: 20px !important;
+
+left: -28px !important;
+}
+
+
+.flipper-next-page
+{
+right: -24px !important;
+width: 22px !important;
+height: 20px !important;
+
+}
+
+
+#myflipper
+{
+width: 80% !important;
+margin-left: 10% !important;
+}
+
+
+
+.inner_testimonails h2
+{
+font: bold 20px Bulldozer !important;
+}
+
+#left_content
+{
+width: 100% !important;
+
+}
+#left_content
+{
+padding-right: 0px!important ; 
+}
+
+#left_content p, #right_content p {
+    font: bold 11px/15px FiraSans !important;
+    letter-spacing: 0px !important;
+}
+
+#right_content
+{
+width: 100% !important;
+margin-top: 50% !important;
+}
+
+#left_content1
+{
+width: 100% !important;
+}
+
+
+.full_content p {
+    font: bold 11px/12px FiraSans !important;
+    letter-spacing: 0px !important;
+}
+
+/*flipper slider responsive code end*/
+
+
+/*code for model pop-up*/
+
+#LOgInfont, #activeAsbmt, #Resend
+{
+    
+    padding: 11px 0 !important;
+
+}
+#menu_bar ul li a 
+{
+    color: #FF6600 !important;     
+}
+
+
+
+ }

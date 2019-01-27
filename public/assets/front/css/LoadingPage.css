@@ -1,0 +1,273 @@
+/**************back page (link-----(http://localhost/geek/) )   responsive start****************/
+@media only screen and (min-width: 300px) and (max-width: 399px) {
+body
+{
+overflow:visible !important;
+overflow-x:hidden !important;
+overflow-y:visible !important;
+}
+.decal
+{
+padding-top:10px !important;
+height: 0px !important;
+}
+
+.decal img
+{
+margin:auto;  
+display:block;
+width: 28% ; 
+}
+
+.jumbotron
+{
+margin-top: 81px !important;
+}
+.jumbotron h1{
+font-size:30px !important;
+font-weight:100 !important;
+}
+.jumbotron p{
+font-size: 21px !important;
+padding-left:0px !important;
+line-height: 19px !important;
+}
+
+.listing {
+width:257px;
+margin:auto!important;
+} 
+.listing ul {
+list-style:none;
+text-align:center;
+}
+.listing ul li {
+display:inline-block;
+}
+
+.listing ul li{
+margin-right:0px;
+}
+.listing ul li img {
+width:24.3px;
+}
+.listing1 {
+width:90%;
+margin:auto;
+} 
+
+.button{
+margin:auto;
+margin-top:15px;
+width:97%;
+max-width:481px;
+}
+.button a{
+font:13px/35px caudex;
+}
+}
+
+
+
+@media only screen and (min-width: 400px) and (max-width: 499px) {
+body
+{
+overflow:visible !important;
+overflow-x:hidden !important;
+overflow-y:visible !important;
+}
+.decal
+{
+padding-top:10px !important;
+height: 0px !important;
+}
+
+.decal img
+{
+margin:auto;   /*-6% 22%*/
+display:block;
+width: 28%; 
+}
+
+.jumbotron
+{
+margin-top: 81px !important;
+}
+.jumbotron h1{
+font-size:30px !important;
+font-weight:100 !important;
+}
+.jumbotron p{
+font-size: 21px !important;
+padding-left:0px !important;
+line-height: 19px !important;
+}
+
+.listing {
+width:95%;
+margin:auto;
+} 
+.listing ul li{
+margin-right:0px;
+}
+.listing ul li img {
+width:36px;
+}
+.listing1 {
+width:100%;
+margin:auto;
+} 
+
+.button{
+margin:auto;
+margin-top:15px;
+max-width:481px;
+width:97%;
+}
+.button a{
+font:15px/35px caudex;
+}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px) {
+
+.decal
+{
+padding-top:25px !important
+}
+
+.decal img{
+margin: auto;
+display: block;
+
+}
+.jumbotron{
+margin-top:123px !important;
+}
+.jumbotron h1{
+font-size:53px !important;
+font-weight:200 !important;
+}
+.jumbotron p{
+font-size:31px !important;
+padding-left:0px !important;
+}
+.listing {
+width:90%;
+margin:auto;
+} 
+.listing ul li{
+margin-right:0px;
+}
+.listing ul li img {
+width:45px;
+}
+.listing1 {
+width:100%;
+margin:auto;
+} 
+
+.button{
+margin:auto;
+margin-top:15px;
+width:481px;
+}
+.button a{
+font:15px/35px caudex;
+}
+
+
+}
+@media only screen and (min-width: 600px) and (max-width: 799px) {
+
+span#ui-id-2 {
+    display: none !important;
+    padding: 4px 4px;
+ }
+ 
+.decal img{
+margin: auto;
+display: block;
+
+}
+.jumbotron{
+	margin-top:144px !important;
+}
+	.jumbotron h1{
+font-size:89px !important;
+font-weight:200 !important;
+}
+.jumbotron p{
+	font-size:45px !important;
+	padding-left:0px !important;
+}
+
+
+.listing {
+width:90%;
+margin:auto;
+} 
+.listing ul li{
+margin-right:0px;
+}
+.listing ul li img {
+width:58px;
+}
+.listing1 {
+width:100%;
+margin:auto;
+} 
+
+.button{
+margin:auto;
+margin-top:15px;
+width:481px;
+}
+}
+
+@media only screen and (min-width: 800px) and (max-width: 959px) {
+
+span#ui-id-2 {
+    display: none !important;
+    padding: 4px 4px;
+ }
+ 
+.decal img{
+margin: auto;
+display: block;
+
+}
+.jumbotron{
+	margin-top:144px !important;
+}
+	.jumbotron h1{
+font-size:89px !important;
+font-weight:200 !important;
+}
+.jumbotron p{
+	font-size:45px !important;
+	padding-left:0px !important;
+}
+
+.listing {
+width:90%;
+margin:auto;
+} 
+.listing ul li{
+margin-right:0px;
+}
+.listing ul li img {
+width:75px;
+}
+.listing1 {
+width:100%;
+margin:auto;
+} 
+
+.button{
+margin:auto;
+margin-top:15px;
+width:481px;
+}
+}
+/**************back page responsive end****************/

@@ -1,0 +1,37 @@
+@import "reset.css";
+@import "flipper.css";
+
+body {
+	font-size: 62.5%; /* Causes base font size to be ~10px */
+	background: url('../images/wood.jpg');
+}
+.wrap {
+	width: 700px;
+	padding: 80px;
+	margin: 20px auto;
+/*	background: #f4f4f4;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.4);*/
+}
+body > h1 {
+	margin: 40px auto 0 auto;
+	text-align: center;
+	color: white;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+	font: 56px/70px helvetica, tahoma, sans-serif;
+	font-weight: bold;
+}
+body > h2 {
+	margin: 0 auto 0 auto;
+	text-align: center;
+	color: white;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+	font: 16px/18px helvetica, tahoma, sans-serif;
+	font-weight: normal;
+}
+footer {
+	text-align: center;
+	width: 100%;
+	color: white;
+	font: 11px/18px helvetica, tahoma, sans-serif;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}

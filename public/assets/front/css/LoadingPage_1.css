@@ -1,0 +1,190 @@
+/**************back page (link-----(http://localhost/geek/) )   responsive start****************/
+@media only screen and (min-width: 320px) and (max-width: 479px) 
+{
+
+
+#btn
+{
+ margin-left: 0% !important;
+margin-top: 2% !important;
+}
+
+
+body
+{
+ 
+overflow:visible !important;
+overflow-x:hidden !important;
+overflow-y:visible !important;
+ 
+
+}
+.decal
+{
+padding-top:10px !important;
+height: 0px !important;
+}
+
+.decal img
+{
+margin:auto  !important;   /*-6% 22%*/
+display:block !important;
+width: 38% !important; 
+
+
+
+
+
+}
+
+.jumbotron
+{
+		margin-top: 133px !important;
+	}
+.jumbotron h1{
+font-size:33px !important;
+font-weight:100 !important;
+}
+.jumbotron p{
+	  font-size: 21px !important;
+		padding-left:0px !important;
+}
+.listing{
+	margin:auto !important;
+	width:90% !important;
+	
+}
+.listing ul li img {
+	width:51px !important;
+	margin-left:0px !important;
+}
+
+.listing ul li {
+    float: left;
+    margin-right: 1px !important;
+    overflow: hidden;  
+}
+
+.button{
+	margin:auto !important;
+	margin-top:50px !important;
+	width:100% !important;
+}
+ 
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+#btn
+{
+    margin-left: 1% !important;
+    margin-top: 2% !important;
+}
+
+body
+{
+ 
+overflow:visible !important;
+overflow-x:hidden !important;
+overflow-y:visible !important;
+ 
+}
+
+
+.decal
+{
+padding-top:25px !important
+}
+
+.decal img{
+margin: -4% 30% !important;
+
+}
+.jumbotron{
+	margin-top:123px !important;
+}
+	.jumbotron h1{
+font-size:53px !important;
+font-weight:200 !important;
+}
+.jumbotron p{
+	font-size:31px !important;
+	padding-left:0px !important;
+}
+.listing{
+	width:97% !important;
+	margin:auto !important;
+	
+}
+.listing ul li img{
+	width:50px !important;
+	margin:auto !important;
+}
+.button{
+		width:340px !important;
+margin:auto !important;
+	margin-top:50px !important;
+}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+span#ui-id-2 {
+    display: none !important;
+    padding: 4px 4px;
+ }
+ 
+body
+{
+ 
+overflow:visible !important;
+overflow-x:hidden !important;
+overflow-y:visible !important;
+ 
+}
+
+
+
+
+
+.decal img{
+margin: -4% 37% !important;
+
+}
+.jumbotron{
+	margin-top:144px !important;
+}
+	.jumbotron h1{
+font-size:89px !important;
+font-weight:200 !important;
+}
+.jumbotron p{
+	font-size:45px !important;
+	padding-left:0px !important;
+}
+.listing{
+	width:96% !important;
+	margin:auto !important;
+	
+}
+.listimng ul li{
+	margin-left:0px !important;}
+	
+.listing ul li img {
+    width: 82px !important;
+    margin: auto !important;
+}
+.button {
+    margin: 50px auto auto !important;
+    padding: 13px !important;
+    width: 55% !important;
+}
+.button a{
+	 
+}
+}
+/**************back page responsive end****************/
