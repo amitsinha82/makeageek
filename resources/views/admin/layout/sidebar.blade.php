@@ -9,10 +9,7 @@
                             <a href="#" class=""> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>School List</span> </a> 
                             <ul class="nav lt">
                                 <li class="{{ Request::is('admin/school/school-list') ? 'active' : ''}}"> <a href="{{ url('admin/school/school-list')}}"> <i class="fa fa-angle-right"></i> <span>All Schools</span> </a> </li>
-
-                                <li class="{{ Request::is('admin/school/school-add') ? 'active' : ''}}"> <a href="{{ url('admin/school/school-add')}}"> <i class="fa fa-angle-right"></i> <span>Add School</span> </a> </li>
-
-
+                                <li class="{{ Request::is('admin/school/add') ? 'active' : ''}}"> <a href="{{ url('admin/school/add')}}"> <i class="fa fa-angle-right"></i> <span>Add School</span> </a> </li>
                             </ul>
                         </li>
                         <!--

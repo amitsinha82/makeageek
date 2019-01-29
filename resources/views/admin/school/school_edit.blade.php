@@ -1,5 +1,5 @@
 @extends('admin.layout.default_layout')
-@section('title') {{{ 'Add School' }}} @parent @stop {{-- Content --}}
+@section('title') {{{ 'Edit School' }}} @parent @stop {{-- Content --}}
 @section('content')
 
 <!--BEGIN PAGE WRAPPER-->
@@ -14,10 +14,10 @@
                 <section class="vbox"> 
                     <!-- Page Heading -->
                     <header class="header bg-white b-b b-light"> 
-                        <p><strong>Add School</strong></p>
+                        <p><strong>Edit School</strong></p>
                         <ul class="breadcrumb pull-right mr-t-7"> 
-                            <li><a href="{{url('admin/user')}}"><i class="fa fa-home"></i> Home</a></li> 
-                            <li class="active">Add School</li>
+                            <li><a href="{{url('admin')}}"><i class="fa fa-home"></i> Home</a></li> 
+                            <li class="active">Edit School</li>
                         </ul>
                     </header> 
                     <!-- End of Page Heading -->     
@@ -53,7 +53,7 @@
                                 {{Session::get('success_msg')}}
                             </div>
                             @endif 
-                            <form action="{{$form_url}}" name="school_form"id="school_form" class="stream-form change_password" method="post" enctype="multipart/form-data">
+                            <form action="{{$form_url}}" name="school_form" id="school_form" class="stream-form change_password" method="post" enctype="multipart/form-data">
                                 {!! csrf_field() !!}
                                 <div class="row">
                                     <div class="panel-body"> 
@@ -73,6 +73,8 @@
                                             <label>School Logo</label> 
                                             <div class="">
                                                 <input type="file" id="school_logo" name="school_logo" />
+                                                <img src="<?php echo $view_logo;?>" height="40" width="40" />
+                                                <input type="hidden" name="logo" value="<?php echo old('logo') ? old('logo') : (empty($logo) ? '' : $logo) ?>" />
                                             </div>
                                         </div>
                                     </div>

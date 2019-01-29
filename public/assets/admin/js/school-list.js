@@ -2,6 +2,9 @@
 $(document).ready(function () {
     var datatable;
     datatable = $('#basicDataTable').DataTable({
+        "language": {
+            "emptyTable": "No records found."
+        },
         "pagingType": "full_numbers",
         "iDisplayLength": admin_per_page_limit,
         "lengthMenu": admin_page_limits,
@@ -60,7 +63,7 @@ $(document).ready(function () {
                 data: null,
                 render: function (data, type, row) {
                     if (data[4] != '' && data[4] != null) {
-                        return '<img width="50" height="30" src="'+data[4]+'" />';
+                        return '<img width="50" height="30" src="' + data[4] + '" />';
                     } else {
                         return '';
                     }
@@ -70,15 +73,16 @@ $(document).ready(function () {
                 targets: 5,
                 data: null,
                 render: function (data, type, row) {
-                    var action_html = '<a class="btn btn-sm btn-default view-log" href="'+SITE_URL+'/admin/school/delete/'+data[5]+'">View Detail</a>';
+                    var action_html = '<a class="btn btn-sm btn-default view-log" href="' + SITE_URL + '/admin/school/delete/' + data[5] + '"><img src="' + SITE_URL + '/assets/admin/images/delete-icon.png"></a>';
+                    action_html += '<a class="btn btn-sm btn-default view-log" href="' + SITE_URL + '/admin/school/edit/' + data[5] + '"><img src="' + SITE_URL + '/assets/admin/images/edit-icon-dark.png"></a>';
                     return action_html;
                 }
             }
         ]
     });
 });
-if($('.alert').length > 0) {
-    setInterval(function() {
+if ($('.alert').length > 0) {
+    setInterval(function () {
         $('.alert').hide();
     }, 2000);
 }
