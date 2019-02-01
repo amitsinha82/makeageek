@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="{{URL::asset('assets/admin/css/dev.css')}}" type="text/css" />
 
 
-<link rel="stylesheet" href="{{URL::asset('assets/admin/css/datepicker.css')}}" type="text/css" />
+<!--<link rel="stylesheet" href="{{URL::asset('assets/admin/css/datepicker.css')}}" type="text/css" />-->
 
 <link rel="stylesheet" href="{{URL::asset('assets/admin/css/prettify_skins_tomorrow.css')}}" type="text/css" />
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>-->

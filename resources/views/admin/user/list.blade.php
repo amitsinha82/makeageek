@@ -1,5 +1,5 @@
 @extends('admin.layout.default_layout')
-@section('title') {{{ 'School List' }}} @parent @stop {{-- Content --}}
+@section('title') {{{ 'User List' }}} @parent @stop {{-- Content --}}
 @section('content')
 
 <!--BEGIN PAGE WRAPPER-->
@@ -14,10 +14,10 @@
                 <section class="vbox"> 
                      <!-- Page Heading -->
                     <header class="header bg-white b-b b-light"> 
-                        <p><strong>Schools</strong></p>
+                        <p><strong>Users</strong></p>
                         <ul class="breadcrumb pull-right mr-t-7"> 
-                            <li><a href="{{url('admin/dashboard')}}"><i class="icon icon-home"></i> Home</a></li> 
-                            <li class="active">School List</li> 
+                            <li><a href="{{url('admin')}}"><i class="icon icon-home"></i> Home</a></li> 
+                            <li class="active">User List</li> 
                         </ul>
                     </header> 
                     <!-- End of Page Heading -->     
@@ -47,33 +47,27 @@
                                 </div>
                             @endif  
                             <section class="">
-                                <div class="col-md-6">
-
-                                <form action="addSubmit" method="post" enctype="multipart/form-data">
-
-                                    {{ csrf_field() }}
-
-                                    <div class="form-group">
-
-                                        <label for="Product Name">School Name</label>
-
-                                        <input type="text" name="name" class="form-control"  placeholder="Product Name" >
-
-                                    </div>
-
-                                    <label for="Product Name">Product photos (can attach more than one):</label>
-
-                                    <br />
-
-                                    <input type="file" class="" name="photos[]" multiple />
-
-                                    <br /><br />
-
-                                    <input type="submit" class="btn btn-primary" value="submit" />
-
-                                </form>
-
-                            </div>
+                                <div class="table-responsive">
+                                    <table id="basicDataTable" class="table table-striped b-t margin-0 b-light">
+                                        <thead class="custom-head">
+                                            <tr>
+                                                <th>Id</th>
+                                                <th>User Type</th>
+                                                <th>Name</th>
+                                                <th>Email</th>
+                                                <th>Phone</th>
+                                                <th>School</th>
+                                                <th>Class</th>
+                                                <th>Teacher's Name</th>
+                                                <th>A/C Start Date</th>
+                                                <th>A/C End Date</th>
+                                                <th>Status</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        
+                                    </table>
+                                </div>
                             </section>
                         </div>
                     </section>
@@ -86,5 +80,6 @@
 <!-- /#page-wrapper -->
 <!--END PAGE WRAPPER-->
 @section('scriptjs')
+<script src="{{URL::asset('assets/admin/js/user-list.js')}}"></script>
 @stop
 @stop

@@ -12,10 +12,7 @@
 namespace App\Providers\Admin;
 
 use App\Models\School;
-//use Illuminate\Support\Facades\Auth;
-//use App\Utilities\Mail;
 use App\Providers\BaseServiceProvider;
-//use DateTime;
 use Illuminate\Support\Facades\Input;
 
 /**
@@ -50,81 +47,6 @@ class SchoolServiceProvider extends BaseServiceProvider {
             $i++;
         }
         return array('data' => $data, 'recordsTotal' => $results['count'], "recordsFiltered" => $results['count']);
-    }
-
-    /**
-     * used to get list of all  user Detail by id
-     *
-     * @return void
-     */
-    public static function getUserDetails($id) {
-        try {
-            $query = User::where(function($query) use($id) {
-                        $query->where('users.role', '!=', User::IS_ADMIN)
-                                ->where('users.id', '=', $id);
-                    });
-
-            $query->where('users.status', User::IS_ACTIVE);
-            $query->select('users.*');
-            $users = $query->orderBy('users.id', 'ASC')->first();
-
-            static::$data['data'] = $users;
-            static::$data['success'] = true;
-            static::$data['message'] = trans('messages.record_listed');
-        } catch (\Exception $e) {
-            static::setExceptionError($e);
-        }
-
-        return static::$data;
-    }
-
-    /**
-     * function is used to get user list
-     * @return type
-     */
-    public static function deleteUserWithReaon() {
-        $input = Input::all();
-        $status = User::where('id', '=', $input['user_id'])
-                ->update([
-            'status' => 3,
-        ]);
-        if ($status) {
-            static::$data['success'] = true;
-            static::$data['message'] = trans('messages.user_blocked');
-        } else {
-            static::$data['success'] = false;
-            static::$data['message'] = trans('messages.user_not_exist');
-        }
-        return static::$data;
-        /*
-         * 
-         * @todo, we will uncomment this code when we send email
-         */
-        /* if ($user) {
-
-          $password = str_random(8);
-          $hashedPassword = \Hash::make($password);
-          static::$mailData['view'] = 'email.admin.delete_user';
-          static::$mailData['data'] = array('password' => $reason);
-          static::$mailData['user'] = $user;
-          static::$mailData['subject'] = config('constants.SUBJECT.admin_forgot_password');
-
-          $mail = new Mail();
-          $status = $mail->sendMail(static::$mailData);
-
-          if ($status) {
-
-          $user->password = $hashedPassword;
-          $user->save();
-          static::$data['success'] = true;
-          static::$data['message'] = trans('messages.forgot_password_email');
-          }
-          } else {
-          static::$data['success'] = false;
-          static::$data['message'] = trans('messages.user_not_exist');
-          }
-         * 
-         */
     }
 
 }

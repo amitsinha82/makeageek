@@ -12,13 +12,10 @@
 namespace App\Providers\Admin;
 
 use App\Models\Admin;
-
-//use App\Models\Report;
 use Illuminate\Support\Facades\Auth;
-//use App\Utilities\Mail;
 use App\Providers\BaseServiceProvider;
-//use DateTime;
-//use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Input;
+use App\Models\User;
 
 /**
  * UserServiceProvider class conatains methods for user management
@@ -31,26 +28,14 @@ class UserServiceProvider extends BaseServiceProvider {
      * @return json
      */
     public static function userLogin($data) {
-//        print_r($request->all());die;
         try {
             $user = Admin::where('user_email', '=', $data['email'])->where('ad_password', '=', md5($data['password']))->first();
-//            echo '<pre>asd';print_r($user->ad_password);die;
-            if ($user) { 
-//                Auth::login($user);
-//                die('success');
-//                $loginToken = static::appUserLoginWithEmailMobil($data);
-//                $userData = Auth::user()->id;echo '<pre>';print_r($userData);die;
-//                $CompanyData = Company::where('id', '=', $userData['company_id'])
-//                        ->first();
-//                if ($loginToken) { //if login token exist then return it with success status
-                    static::$data['success'] = true;
-                    static::$data['data']['role'] = 'admin';
-                    static::$data['data']['email'] = $data['email'];
-//                    static::$data['data']['company'] = $CompanyData;
-//                    static::$data['accessToken'] = $loginToken;
-                    static::$data['accessToken'] = $data['_token'];
-                    static::$data['message'] = trans('messages.login_success');
-//                }
+            if ($user) {
+                static::$data['success'] = true;
+                static::$data['data']['role'] = 'admin';
+                static::$data['data']['email'] = $data['email'];
+                static::$data['accessToken'] = $data['_token'];
+                static::$data['message'] = trans('messages.login_success');
             } else {
                 static::$data['success'] = false;
                 static::$data['accessToken'] = '';
@@ -61,6 +46,40 @@ class UserServiceProvider extends BaseServiceProvider {
         }
 
         return static::$data;
+    }
+
+    public static function getUserList() {
+        $userModel = new User();
+        $data = array();
+        $search = '';
+        $input = Input::all();
+        if (isset($input['search']['value'])) {
+            $search = $input['search']['value'];
+        }
+        if (!$search) {
+            $results = $userModel->getUserList(array('limit' => $input['length'], 'offset' => $input['start']));
+        } else {
+            $results = $userModel->getUserList(array('q' => $search, 'limit' => $input['length'], 'offset' => $input['start']));
+        }
+        $i = 1;
+        foreach ($results['result'] as $result) {
+            $data[] = array(
+                $i,
+                $result->user_type,
+                ucwords($result->name),
+                $result->u_email,
+                $result->co_code.'-' . $result->u_phone,
+                $result->school_name,
+                $result->classname,
+                $result->teacer_name,
+                $result->account_start_date,
+                $result->account_end_date,
+                $result->status == '1'?'Active':'Inactive',
+                $result->user_id,
+            );
+            $i++;
+        }
+        return array('data' => $data, 'recordsTotal' => $results['count'], "recordsFiltered" => $results['count']);
     }
 
 }

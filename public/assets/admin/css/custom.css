@@ -235,6 +235,9 @@ div.active {
 form.change_password input {
     width: 40%;
 }
+form.change_password select {
+    width: 40%;
+}
 .panel-body{
     padding-top: 0;
 }
