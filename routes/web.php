@@ -21,7 +21,7 @@ Route::group(['prefix' => 'admin'], function () {
     Route::get('login', 'Admin\AdminController@getLogin');
     Route::post('login', 'Admin\AdminController@postLogin');
     Route::group(['middleware' => ['Role']], function () {
-        //user start
+        //user module start
         Route::get('user/add', 'Admin\UserController@getUserAdd');
         Route::post('user/add', 'Admin\UserController@postUserAdd');
         Route::get('user/edit/{id}', 'Admin\UserController@getUserEdit');
@@ -31,8 +31,8 @@ Route::group(['prefix' => 'admin'], function () {
         Route::get('user/list-ajax', 'Admin\UserController@getUserListAjax');
         Route::get('user/detail/{id}', 'Admin\UserController@getUserDetail');
         Route::get('user/teacher-list-ajax', 'Admin\UserController@getTeacherListAjax');
-        //user end
-        //school start
+        //user module end
+        //school module start
         Route::get('school/add', 'Admin\SchoolController@getSchoolAdd');
         Route::post('school/add', 'Admin\SchoolController@postSchoolAdd');
         Route::get('school/edit/{id}', 'Admin\SchoolController@getSchoolEdit');
@@ -41,8 +41,8 @@ Route::group(['prefix' => 'admin'], function () {
         Route::get('school/school-list', 'Admin\SchoolController@getSchoolList');
         Route::get('school/school-list-ajax', 'Admin\SchoolController@getSchoolListAjax');
         Route::get('school-details/{id}', 'Admin\SchoolController@getSchoolDetails');
-        //school end
-        //class start
+        //school module end
+        //class module start
         Route::get('class/add', 'Admin\ClassController@getClassAdd');
         Route::post('class/add', 'Admin\ClassController@postClassAdd');
         Route::get('class/edit/{id}', 'Admin\ClassController@getClassEdit');
@@ -50,7 +50,16 @@ Route::group(['prefix' => 'admin'], function () {
         Route::get('clss/delete/{id}', 'Admin\ClassController@getClassDelete');
         Route::get('class/list', 'Admin\ClassController@getClassList');
         Route::get('class/list-ajax', 'Admin\ClassController@getClassListAjax');
-        //class end
+        //class module end
+         //subject module start
+        Route::get('subject/add', 'Admin\SubjectController@getSubjectAdd');
+        Route::post('subject/add', 'Admin\SubjectController@postSubjectAdd');
+        Route::get('subject/edit/{id}', 'Admin\SubjectController@getSubjectEdit');
+        Route::post('subject/edit/{id}', 'Admin\SubjectController@postSubjectEdit');
+        Route::get('subject/delete/{id}', 'Admin\SubjectController@getSubjectDelete');
+        Route::get('subject/list', 'Admin\SubjectController@getSubjectList');
+        Route::get('subject/list-ajax', 'Admin\SubjectController@getSubjectListAjax');
+        //subject module end
         Route::get('logout', 'Admin\AdminController@getlogout');
         Route::get('dashboard', 'Admin\AdminController@getDashboard');
     });

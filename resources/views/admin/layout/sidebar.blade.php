@@ -26,6 +26,13 @@
                                 <li class="{{ Request::is('admin/class/add') ? 'active' : ''}}"> <a href="{{ url('admin/class/add')}}"> <i class="fa fa-angle-right"></i> <span>Add Class</span> </a> </li>
                             </ul>
                         </li>
+                        <li class="{{ Request::is('admin/subject') ||Request::is('admin/subject/*') ? 'active treeview' : ''}}" >
+                            <a href="#" class=""> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>Subject</span> </a> 
+                            <ul class="nav lt">
+                                <li class="{{ Request::is('admin/subject/list') ? 'active' : ''}}"> <a href="{{ url('admin/subject/list')}}"> <i class="fa fa-angle-right"></i> <span>All Subjects</span> </a> </li>
+                                <li class="{{ Request::is('admin/subject/add') ? 'active' : ''}}"> <a href="{{ url('admin/subject/add')}}"> <i class="fa fa-angle-right"></i> <span>Add Subject</span> </a> </li>
+                            </ul>
+                        </li>
                     </ul>
 
                 </nav>
