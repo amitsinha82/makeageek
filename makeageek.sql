@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 01, 2019 at 11:01 AM
+-- Generation Time: Apr 03, 2019 at 06:37 AM
 -- Server version: 10.1.16-MariaDB
 -- PHP Version: 5.6.24
 
@@ -63,7 +63,9 @@ INSERT INTO `classname` (`classid`, `classname`, `subctFKid`) VALUES
 (25, 6, 5),
 (28, 10, 5),
 (33, 8, 5),
-(34, 7, 5);
+(34, 7, 5),
+(35, 11, 5),
+(36, 11, 12);
 
 -- --------------------------------------------------------
 
@@ -406,7 +408,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `classname`
 --
 ALTER TABLE `classname`
-  MODIFY `classid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
+  MODIFY `classid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 --
 -- AUTO_INCREMENT for table `school`
 --
