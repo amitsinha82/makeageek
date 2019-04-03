@@ -5,6 +5,13 @@
                 <!-- nav --> 
                 <nav class="nav-primary hidden-xs">
                     <ul class="nav">
+                        <li class="{{ Request::is('admin/user') ||Request::is('admin/user/*') ? 'active treeview' : ''}}" >
+                            <a href="#" class=""> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>Users</span> </a> 
+                            <ul class="nav lt">
+                                <li class="{{ Request::is('admin/user/list') ? 'active' : ''}}"> <a href="{{ url('admin/user/list')}}"> <i class="fa fa-angle-right"></i> <span>All Users</span> </a> </li>
+                                <li class="{{ Request::is('admin/user/add') ? 'active' : ''}}"> <a href="{{ url('admin/user/add')}}"> <i class="fa fa-angle-right"></i> <span>Add User</span> </a> </li>
+                            </ul>
+                        </li>
                         <li class="{{ Request::is('admin/school') ||Request::is('admin/school/*') ? 'active treeview' : ''}}" >
                             <a href="#" class=""> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>School</span> </a> 
                             <ul class="nav lt">
@@ -12,11 +19,11 @@
                                 <li class="{{ Request::is('admin/school/add') ? 'active' : ''}}"> <a href="{{ url('admin/school/add')}}"> <i class="fa fa-angle-right"></i> <span>Add School</span> </a> </li>
                             </ul>
                         </li>
-                        <li class="{{ Request::is('admin/user') ||Request::is('admin/user/*') ? 'active treeview' : ''}}" >
-                            <a href="#" class=""> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>Users</span> </a> 
+                        <li class="{{ Request::is('admin/class') ||Request::is('admin/class/*') ? 'active treeview' : ''}}" >
+                            <a href="#" class=""> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>Class</span> </a> 
                             <ul class="nav lt">
-                                <li class="{{ Request::is('admin/user/list') ? 'active' : ''}}"> <a href="{{ url('admin/user/list')}}"> <i class="fa fa-angle-right"></i> <span>All Users</span> </a> </li>
-                                <li class="{{ Request::is('admin/user/add') ? 'active' : ''}}"> <a href="{{ url('admin/user/add')}}"> <i class="fa fa-angle-right"></i> <span>Add User</span> </a> </li>
+                                <li class="{{ Request::is('admin/class/list') ? 'active' : ''}}"> <a href="{{ url('admin/class/list')}}"> <i class="fa fa-angle-right"></i> <span>All Class</span> </a> </li>
+                                <li class="{{ Request::is('admin/class/add') ? 'active' : ''}}"> <a href="{{ url('admin/class/add')}}"> <i class="fa fa-angle-right"></i> <span>Add Class</span> </a> </li>
                             </ul>
                         </li>
                     </ul>

@@ -42,6 +42,15 @@ Route::group(['prefix' => 'admin'], function () {
         Route::get('school/school-list-ajax', 'Admin\SchoolController@getSchoolListAjax');
         Route::get('school-details/{id}', 'Admin\SchoolController@getSchoolDetails');
         //school end
+        //class start
+        Route::get('class/add', 'Admin\ClassController@getClassAdd');
+        Route::post('class/add', 'Admin\ClassController@postClassAdd');
+        Route::get('class/edit/{id}', 'Admin\ClassController@getClassEdit');
+        Route::post('class/edit/{id}', 'Admin\ClassController@postClassEdit');
+        Route::get('clss/delete/{id}', 'Admin\ClassController@getClassDelete');
+        Route::get('class/list', 'Admin\ClassController@getClassList');
+        Route::get('class/list-ajax', 'Admin\ClassController@getClassListAjax');
+        //class end
         Route::get('logout', 'Admin\AdminController@getlogout');
         Route::get('dashboard', 'Admin\AdminController@getDashboard');
     });
